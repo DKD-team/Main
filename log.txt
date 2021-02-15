@@ -1,0 +1,11 @@
+commit c86e452715e3c423783a4020d6f440fbcf6dc91b
+Author: Denis <dzyanis.khamitsevich@gmail.com>
+Date:   Mon Feb 15 14:23:40 2021 +0300
+
+    status changed
+
+commit 8c095dcd8bff196323e7012d1612fc8b1a4d6b82
+Author: Denis <dzyanis.khamitsevich@gmail.com>
+Date:   Mon Feb 15 14:20:47 2021 +0300
+
+    add.gitignore
