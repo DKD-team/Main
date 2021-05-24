@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)file:///C:/Users/GreatDenis/Downloads/page.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: white;
+        }
+        
+        h1 {
+            color: black;
+            font-size: 50px;
+            position: absolute;
+            left: 100px;
+        }
+        
+        .checked {
+            color: orange;
+        }
+        
+        .button {
+            font-size: 25px;
+            display: inline-block;
+            background-color: gray;
+            outline: none;
+            color: white;
+            border-radius: 40px;
+            border: none;
+            position: absolute;
+            top: 740px;
+            left: 1130px;
+            width: 210px;
+            cursor: pointer;
+        }
+        
+        #sign4 {
+            position: absolute;
+            top: 1250px;
+        }
+        
+        #sign {
+            font-size: 30px;
+            background-color: blue;
+            outline: none;
+            color: white;
+            border-radius: 40px;
+            border: none;
+            position: absolute;
+            top: 55px;
+            left: 1300px;
+            width: 180px;
+            cursor: pointer;
+        }
+        
+        #sign:active {
+            background-color: blue;
+            transform: translateY(4px);
+        }
+        
+        #search {
+            font-size: 30px;
+            display: inline-block;
+            background-color: blue;
+            outline: none;
+            color: white;
+            border-radius: 40px;
+            border: none;
+            position: absolute;
+            top: 700px;
+            left: 110px;
+            width: 180px;
+            cursor: pointer;
+        }
+        
+        #search:active {
+            background-color: blue;
+            transform: translateY(4px);
+        }
+        
+        fil {
+            position: relative;
+            top: 300px;
+            left: 100px;
+            font-size: 40px;
+        }
+        
+        #sel1 {
+            position: relative;
+            top: 350px;
+            left: -42px;
+            size: 40px;
+            height: 45px;
+            width: 185px;
+            font-size: 15px;
+        }
+        
+        #start {
+            position: absolute;
+            height: 40px;
+            top: 467px;
+            width: 180px;
+            left: 110px;
+        }
+        
+        p {
+            font-size: 20px;
+            position: absolute;
+            top: 410px;
+            left: 110px;
+        }
+        
+        #date2 {
+            position: absolute;
+            top: 510px;
+            left: 110px;
+        }
+        
+        #end {
+            position: absolute;
+            height: 40px;
+            width: 180px;
+            top: 560px;
+            left: 110px;
+        }
+        
+        #sel2 {
+            position: absolute;
+            top: 630px;
+            left: 110px;
+            height: 45px;
+            width: 185px;
+        }
+        
+        #fil2 {
+            position: absolute;
+            top: 210px;
+            left: 700px;
+        }
+        
+        .name {
+            position: absolute;
+            font-size: 35px;
+        }
+        
+        .opisanie {
+            position: absolute;
+            font-size: 25px;
+        }
+        
+        #ob1 {
+            top: 300px;
+            left: 700px;
+        }
+        
+        #ob2 {
+            top: 810px;
+            left: 700px;
+        }
+        
+        #vendor1 {
+            top: 350px;
+            left: 810px;
+        }
+        
+        #vendor2 {
+            top: 860px;
+            left: 810px;
+        }
+        
+        #ur1 {
+            top: 400px;
+            left: 810px;
+        }
+        
+        #ur2 {
+            top: 910px;
+            left: 810px;
+        }
+        
+        #hash1 {
+            top: 460px;
+            left: 810px;
+        }
+        
+        #hash2 {
+            top: 970px;
+            left: 810px;
+        }
+        
+        #sale1 {
+            top: 510px;
+            left: 810px;
+        }
+        
+        #sale2 {
+            top: 1020px;
+            left: 810px;
+        }
+        
+        #srok1 {
+            top: 560px;
+            left: 810px;
+        }
+        
+        #srok2 {
+            top: 1070px;
+            left: 810px;
+        }
+        
+        #op1 {
+            top: 610px;
+            left: 810px;
+            right: 200px;
+        }
+        
+        #op2 {
+            top: 1120px;
+            left: 810px;
+            right: 200px;
+        }
+        
+        #photo1 {
+            position: absolute;
+            top: 360px;
+            left: 500px;
+        }
+        
+        #photo2 {
+            position: absolute;
+            top: 870px;
+            left: 500px;
+        }
+        
+        .star {
+            position: absolute;
+            cursor: pointer;
+        }
+        
+        #star11 {
+            top: 750px;
+            left: 810px;
+        }
+        
+        #star21 {
+            top: 1260px;
+            left: 810px;
+        }
+        
+        #star12 {
+            top: 750px;
+            left: 840px;
+        }
+        
+        #star22 {
+            top: 1260px;
+            left: 840px;
+        }
+        
+        #star13 {
+            top: 750px;
+            left: 870px;
+        }
+        
+        #star23 {
+            top: 1260px;
+            left: 870px;
+        }
+        
+        #star14 {
+            top: 750px;
+            left: 900px;
+        }
+        
+        #star24 {
+            top: 1260px;
+            left: 900px;
+        }
+        
+        #star15 {
+            top: 750px;
+            left: 930px;
+        }
+        
+        #star25 {
+            top: 1260px;
+            left: 930px;
+        }
+        
+        footer {
+            position: absolute;
+            top: 1500px;
+            background: #DCDCDC;
+            padding: 30px;
+            color: black;
+            width: 1459px;
+            left: 0px;
+            font-size: 25px;
+        }
+        
+        #line1 {
+            position: absolute;
+            left: 0px;
+            width: 1515px;
+            top: 270px;
+        }
+        
+        .vl {
+            border-left: 1px solid gray;
+            height: 1300px;
+            position: absolute;
+            left: 320px;
+            top: 280px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SalesFinder</h1>
+    <s><input type="button" value=" Войти " id="sign"></s>
+    <fil>Фильтр:</fil>
+    <sel1> <select size="1" id="sel1">
+<option active>Выберите вендора</option>
+<option value="Вендор 1">Вендор 1</option>
+<option value="Вендор 2">Вендор 2</option>
+<option value="Вендор 3">Вендор 3</option>
+</select></sel1>
+    <date><input type="date" id="start" name="trip-start" value="2020-02-28" min="2020-01-01">
+    </date>
+    <p>Все акции после:</p>
+    <p id="date2">Все акции до:</p>
+    <date><input type="date" id="end" value="2020-02-28" min="2020-01-01">
+    </date>
+    <sel1> <select size="1" id="sel2">
+<option active>Выберите нужный хештег</option>
+<option value="Вендор 1">Хештэг 1</option>
+<option value="Вендор 2">Хештег 2</option>
+<option value="Вендор 3">Хештег 3</option>
+</select></sel1>
+    <fil id="fil2">Объявления:</fil>
+    <s><input type="button" value=" Поиск " id="search"></s>
+    <div>
+        <a class="name" id="ob1">Акция 1</a>
+        <a class="opisanie" id="vendor1">Вендор 1</a>
+        <a href="null" class="opisanie" id="ur1">Ссылка на сайт вендора</a>
+        <a class="opisanie" id="hash1">#hashtag1 #hashtag2 #hashtag3</a>
+        <a class="opisanie" id="sale1">Размер скидки: 30%</a>
+        <a class="opisanie" id="srok1">Действует с 1.1.1 до 2.2.2</a>
+        <a class="opisanie" id="op1">краткое описание краткое описание
+краткое описание краткое описание краткое описание краткое описание
+ краткое описание краткое описание краткое описание краткое описание
+</a>
+
+        <span class="fa fa-star checked star" id="star11"></span>
+        <span class="fa fa-star checked star" id="star12"></span>
+        <span class="fa fa-star star" id="star13"></span>
+        <span class="fa fa-star star" id="star14"></span>
+        <span class="fa fa-star star" id="star15"></span>
+        <s><input class="button" disabled value=" Оставить отзыв " id="sign3"></s>
+    </div>
+    <div>
+        <a class="name" id="ob2">Акция 2</a>
+        <a class="opisanie" id="vendor2">Вендор 2</a>
+        <a href="null" class="opisanie" id="ur2">Ссылка на сайт вендора</a>
+        <a class="opisanie" id="hash2">#hashtag1 #hashtag2 #hashtag3</a>
+        <a class="opisanie" id="sale2">Размер скидки: 30%</a>
+        <a class="opisanie" id="srok2">Действует с 2.2.2 до 3.3.3</a>
+        <a class="opisanie" id="op2">краткое описание краткое описание
+краткое описание краткое описание краткое описание краткое описание
+ краткое описание краткое описание краткое описание краткое описание
+ </a>
+
+        <s><input class="button" disabled value=" Оставить отзыв " id="sign4"></s>
+        <span class="fa fa-star checked star" id="star21"></span>
+        <span class="fa fa-star checked star" id="star22"></span>
+        <span class="fa fa-star star checked" id="star23"></span>
+        <span class="fa fa-star star checked" id="star24"></span>
+        <span class="fa fa-star star" id="star25"></span>
+    </div>
+    <hr align="center" size="1" color=gray id="line1" />
+    <div class="vl"></div>
+    <footer>
+        SalesFinder - project by DKD-team
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
