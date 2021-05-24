@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SalesFinder</title>
+</head>
+<body>
+    <header>
+        <h1>SalesFinder</h1>
+        <input type="button" value="Войти" id="sign" class="button">
+    </header>
+    <p class="ads">Объявления:</p>
+    <div class="middle_section">
+        <div class="sort_section">
+            <p class="filter">Фильтр:</p>
+            <select size="1" class="selecter">
+                <option active>Выберите вендора</option>
+                <option value="Вендор 1">Вендор 1</option>
+                <option value="Вендор 2">Вендор 2</option>
+                <option value="Вендор 3">Вендор 3</option>
+            </select>
+            <p class="sales_date_paragraph">Все акции после:</p>
+            <input type="date" value="2020-02-28" min="2020-01-01" class="selecter" id="start_date">
+            <p class="sales_date_paragraph">Все акции до:</p>
+            <input type="date" value="2020-02-28" min="2020-01-01" class="selecter" id="end_date">
+            <select size="1" class="selecter" id="hash_selecter">
+                <option active>Выберите хештег</option>
+                <option value="Хештег 1">Хештег 1</option>
+                <option value="Хештег 2">Хештег 2</option>
+                <option value="Хештег 3">Хештег 3</option>
+            </select>
+            <input type="button" value="Поиск" id="find" class="button">
+        </div>
+        <div class="advert">
+            <h2 class="name_of_advert">Акция 1</h2>
+            <div class="advert_value">
+                <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+                <div class="description_of_advert">
+                    <p class="vendor_of_advert">Вендор 1</p>
+                    <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                    <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                    <p class="sale_of_advert">Размер скидки 30%</p>
+                    <p class="date_of_advert">Действует с 1.1.1 до 2.2.2</p>
+                    <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                    </p>
+                    <div class="rating">
+                        <span class="fa fa-star checked star"></span>
+                        <span class="fa fa-star star"></span>
+                        <span class="fa fa-star star"></span>
+                        <span class="fa fa-star star"></span>
+                        <span class="fa fa-star star"></span>
+                    </div>
+                    <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 2</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 2</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 1.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 3</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 3</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 2.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 4</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 4</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 12.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 5</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 5</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 11.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 6</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 2</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 11.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 7</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 2</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 1.2.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 8</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 6</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 1.3.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 9</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 7</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 1.5.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <div class="middle_advert">
+        <h2 class="name_of_advert">Акция 10</h2>
+        <div class="advert_value">
+            <img src="./assets/pictures/sale.jpg" alt="null" class="picture_of_advert">
+            <div class="description_of_advert">
+                <p class="vendor_of_advert">Вендор 2</p>
+                <a href="null" class="url_of_vendor">Ссылка на сайт вендора</a>
+                <p class="hashtags">#hashtag1 #hashtag2 #hashtag3</p>
+                <p class="sale_of_advert">Размер скидки 30%</p>
+                <p class="date_of_advert">Действует с 1.3.1 до 3.2.2</p>
+                <p class="short_description">краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание краткое описание
+                </p>
+                <div class="rating">
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star checked star"></span>
+                    <span class="fa fa-star star"></span>
+                </div>
+                <input  type="button" value="Оставить отзыв" id="review" class="button" disabled>
+            </div>
+        </div>
+
+    </div>
+    <input  type="button" value="Загрузить ещё" id="load_more" class="button">
+    <footer>
+        <p class="footer_inscription">SalesFinder - project by DKD-team</p>
+    </footer>
+    
+    
+    
+</body>
+</html>
